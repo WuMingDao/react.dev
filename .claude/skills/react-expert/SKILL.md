@@ -51,7 +51,7 @@ First, ensure the React repo is available locally:
 if [ -d ".claude/react" ]; then
   cd .claude/react && git pull origin main
 else
-  git clone --depth=100 https://github.com/facebook/react.git .claude/react
+  git clone --depth=100 https://github.com/react/react.git .claude/react
 fi
 ```
 
